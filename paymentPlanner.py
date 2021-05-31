@@ -6,11 +6,10 @@ Purpose: To Estimate a payment schedule for loans and financed purchases.
 """
 # input collection
 price = (float(input("\nPurchase Price: ")))
-# example "12" for one year, "120" for 10 years
-months = (float(input("Loan Duration(in months): ")))
+months = (float(input("Loan Duration(in months): "))) # example "12" for one year, "120" for 10 years
 downPayment = (float(input("Down Payment: ")))
-interestRate = (float(input("Interest Rate(as a decimal): "))
-                )  # example: .045 = 4.5%
+interestRate = (float(input("Interest Rate(as a decimal): ")))  # example: .045 = 4.5%
+                
 
 # other variables
 subTotal = price - downPayment
